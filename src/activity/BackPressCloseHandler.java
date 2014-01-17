@@ -3,10 +3,12 @@ package activity;
 import android.app.Activity;
 import android.widget.Toast;
 
+
 /**
  * @author se
  * tab a back button with in a 2 seconds, app will be existed
  */
+
 public class BackPressCloseHandler {
 
 	private long backKeyPressedTime = 0;
@@ -33,7 +35,11 @@ public class BackPressCloseHandler {
 
 
 	private void showGuide() {
+<<<<<<< HEAD
 		/* do something before app is exited ... */
+=======
+		// do something before app is exit ...
+>>>>>>> b4c1140d7bef696ca6d74d5ec31dc17c87047230
 	}
 
 

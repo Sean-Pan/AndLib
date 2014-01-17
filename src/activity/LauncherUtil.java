@@ -16,6 +16,7 @@ public class LauncherUtil {
 	 * @param activity
 	 * @param cls 
 	 * start activity with delay & animation
+
 	 */
 	public static void go(final Activity activity, final Class<?> cls) {
 		Handler handler;
